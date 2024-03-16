@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: #000000;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 50px; 
+    font-family: 'Press Start 2P', sans-serif; 
+    color: #0C3FBF; 
+    text-align: center;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    text-align: center;
+    color: #1AD644;
+}
+
+a {
+    color: #0F9233;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#subtitle {
+    text-decoration: underline dashed;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Impact', sans-serif;
+}
+
+#pudim {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}

@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #000000;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 50px; 
+    font-family: 'Press Start 2P', sans-serif; 
+    color: #0C3FBF; 
+    text-align: center;
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #0C3FBF }
+    50% { color: #23a3ec; }
+    100% { color: #0C3FBF; }
+  }
+
+p {
+    font-family: 'Pixelify Sans', sans-serif; 
+    text-align: center;
+    color: #1AD644;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #1AD644;
+}
+
+a:hover {
+    color: #0F9233;
+}
