@@ -1,7 +1,13 @@
+body {
+    text-align: center;
+    background-color: #000000;
+    margin: 50px;
+}
+
 h1 {
-    font-size: large; 
-    font-family: sans-serif; 
-    color: #05751E; 
+    font-size: 50px; 
+    font-family: 'Press Start 2P', sans-serif; 
+    color: #0C3FBF; 
     text-align: center;
 }
 
@@ -19,4 +25,17 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#subtitle {
+    text-decoration: underline dashed;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Impact', sans-serif;
+}
+
+#pudim {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
