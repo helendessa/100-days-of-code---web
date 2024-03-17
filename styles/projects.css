@@ -5,33 +5,57 @@ body {
 }
 
 h1 {
-    font-size: 50px; 
+    font-size: 30px; 
     font-family: 'Press Start 2P', sans-serif; 
     color: #0C3FBF; 
     text-align: center;
     animation: color-change 3s infinite;
+    padding: 20px;
+    border: dotted #0C3FBF;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 @keyframes color-change {
     0% { color: #0C3FBF }
     50% { color: #23a3ec; }
     100% { color: #0C3FBF; }
-  }
+}
 
-p {
+ul {
     font-family: 'Pixelify Sans', sans-serif; 
     text-align: center;
     color: #1AD644;
     font-size: 24px;
     text-decoration: none;
+    list-style: none;
+    margin: 0 250px 0 250px;
+    padding: 0;
 }
 
 a {
-    font-size: 24px;
+    font-size: 28px;
     text-decoration: none;
     color: #1AD644;
 }
 
 a:hover {
-    color: #0F9233;
+    color: #23a3ec;
+}
+
+ul p {
+    font-family: 'Pixelify Sans', sans-serif; 
+    text-align: justify;
+    text-indent: 50px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+
+h2 p {
+    margin-top: 0;
+    margin-bottom: 40px;
 }
