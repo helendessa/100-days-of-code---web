@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-color: #000000;
-    margin: 50px;
+    margin: 0px;
 }
 
 h1 {
@@ -14,6 +14,7 @@ h1 {
     border: dotted #0C3FBF;
     margin-left: 250px;
     margin-right: 250px;
+    margin-top: 50px;
 }
 
 @keyframes color-change {
@@ -43,6 +44,26 @@ a:hover {
     color: #23a3ec;
 }
 
+.container h2 {
+    background-color: #0C3FBF;
+    margin: 50px auto 0 auto;
+    padding: 20px;
+    border: dotted #1AD644;
+}
+
+h2:hover {
+    animation: flash 2s infinite;
+}
+
+@keyframes flash {
+    0% {
+      border: 3px dotted transparent;
+    }
+    100% {
+      border: 3px dotted #1AD644;
+    }
+}
+
 ul p {
     font-family: 'Pixelify Sans', sans-serif; 
     text-align: justify;
@@ -51,11 +72,22 @@ ul p {
     font-size: 24px;
     text-decoration: none;
     list-style: none;
-    margin: 36px auto 0 auto;
-    padding: 0;
+    margin: 0 auto 20px;
+    padding: 20px;
 }
 
-h2 p {
-    margin-top: 0;
-    margin-bottom: 40px;
+.container p {
+    margin: 24px auto 0 auto;
+    padding: 20px;
+    border: dotted #1AD644;
+
 }
+
+ul p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+
