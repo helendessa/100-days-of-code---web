@@ -46,7 +46,7 @@ a:hover {
 
 .container h2 {
     background-color: #0C3FBF;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 0;
     padding: 20px;
     border: dotted #1AD644;
 }
@@ -77,15 +77,10 @@ ul p {
 }
 
 .container p {
-    margin: 24px auto 0 auto;
+    margin: 0px auto 0 auto;
     padding: 20px;
     border: dotted #1AD644;
 
-}
-
-ul p {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 
