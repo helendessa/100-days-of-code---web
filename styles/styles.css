@@ -4,11 +4,32 @@ body {
     margin: 50px;
 }
 
+main {
+    background-color: #dd8e6e;
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+}
+
+img {
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+}
+
 h1 {
     font-size: 50px; 
     font-family: 'Press Start 2P', sans-serif; 
     color: #0C3FBF; 
     text-align: center;
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% { color: #0C3FBF }
+    50% { color: #23a3ec; }
+    100% { color: #0C3FBF; }
 }
 
 p {
