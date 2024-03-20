@@ -1,15 +1,15 @@
 body {
     text-align: center;
-    background-color: #000000;
+    background-color: #260401;
     margin: 50px;
 }
 
 main {
-    background-color: #dd8e6e;
+    background-color: #D9D4BF;
     padding: 20px;
     margin-left: 500px;
     margin-right: 500px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 img {
@@ -20,16 +20,53 @@ img {
 
 h1 {
     font-size: 50px; 
-    font-family: 'Press Start 2P', sans-serif; 
-    color: #0C3FBF; 
+    font-family: 'New Rocker', sans-serif; 
+    color: #A61717; 
     text-align: center;
     animation: color-change 3s infinite;
 }
 
 @keyframes color-change {
-    0% { color: #0C3FBF }
-    50% { color: #23a3ec; }
-    100% { color: #0C3FBF; }
+    0% { color: #A61717 }
+    50% { color: #D93232; }
+    100% { color: #A61717; }
+}
+
+#login {
+    background-color: #8C4F2B;
+    padding: 20px;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    border-radius: 15px;
+}
+
+#login-box, #password-box {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #D9D4BF;
+}
+
+#login-button {
+    margin: 2.5px;
+    color: #A61717;
+    border-radius: 8px;
+    background-color: #D9D4BF;
+    padding: 8px;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.3s;
+}
+
+#login-button:hover {
+    background-color: #A61717;
+    color: #D9D4BF;
+}
+
+#login-button:active {
+    background-color: #D93232;
+    color: #8C4F2B;
 }
 
 p {
@@ -53,6 +90,7 @@ a:hover {
     font-weight: bold;
     font-size: 40px;
     font-family: 'Impact', sans-serif;
+    color: #8C4F2B;
 }
 
 #pudim {
